@@ -3,7 +3,14 @@ const React = require('react');
 // Components
 const Nav = require('./Nav');
 
-const config = {app: {name: 'EchoSuggest'}};
+const config = {
+    app: {
+        name: 'EchoSuggest'}
+    echonest: {
+        key: JQL763XRR0PHE44LI,
+        consumerKey: 869bf28b91f142f2e0f0ce428dae3c9c
+    }
+};
 
 // Component style
 require('app/styles/app.less');
