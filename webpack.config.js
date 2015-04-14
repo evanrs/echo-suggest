@@ -45,7 +45,7 @@ var webpackConfig = {
         'style', 'main.css', { disable: false, allChunks: true })],
   resolve: {
     extensions: ['', '.js', '.jsx', '.es', '.es6'],
-    alias: {app: path.join(__dirname, "client")}
+    alias: {app: __dirname}
   }
 };
 

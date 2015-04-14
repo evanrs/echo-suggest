@@ -1,9 +1,5 @@
 var React = require('react');
 
-var EchoSuggest = React.createClass({
-    render: function () {
-        return <div>Hello world</div>
-    }
-})
+var EchoSuggest = require('./EchoSuggest');
 
-React.render(React.createElement(EchoSuggest), document.body);
+React.render(<EchoSuggest/>, document.body);
